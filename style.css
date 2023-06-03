@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100;200;300;400;500;600&family=Caveat:wght@400;500;600;700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=VT323&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+   
+}
+
+body{
+    width:100vw;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+    color: #E4E4E4;
+
+}
+
+/* обращение по классу */
+.container{
+    max-width:1024px;
+    margin:0 auto;
+}
+
+.header_content{
+    padding-top:40px;
+    padding-bottom:40px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.header_logo{
+    width:106px;
+}
+
+.header_menu{
+    width:710px;
+    display:flex;
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    list-style:none;
+}
+
+.header_menu_item{
+    cursor:pointer;
+}
+.header_menu_item:hover{
+   border-bottom:1px solid rgba(226, 163, 0, 1); 
+}
+
